@@ -1,5 +1,20 @@
 # Changelog
 
+## [12.0.0-pre.2](https://github.com/npm/cli/compare/v12.0.0-pre.1...v12.0.0-pre.2) (2026-06-23)
+### Features
+* [`58cd8f5`](https://github.com/npm/cli/commit/58cd8f591d0fdeafbb8f477fb8b8f5aa2e042c90) [#9586](https://github.com/npm/cli/pull/9586) `.npm-extension` transformManifest for imperative manifest repairs (#9586) (@manzoorwanijk)
+### Bug Fixes
+* [`7655822`](https://github.com/npm/cli/commit/765582219fee6ca599ad65681c7b63168801aa15) [#9597](https://github.com/npm/cli/pull/9597) arborist: don't flag inert optional deps in strict-allow-scripts (#9597) (@JamieMagee)
+* [`1a9ce8e`](https://github.com/npm/cli/commit/1a9ce8e3f56ec26dd283b8957119f721d8d3fe5f) [#9592](https://github.com/npm/cli/pull/9592) link: scope `npm link <path> --workspace` to the workspace, not the root (#9592) (@manzoorwanijk)
+### Dependencies
+* [`ce11dcf`](https://github.com/npm/cli/commit/ce11dcf775f6bc3ad42bf3f3f6b9e0ff7cc3e695) [#9596](https://github.com/npm/cli/pull/9596) `npm-packlist@11.3.0`
+* [workspace](https://github.com/npm/cli/releases/tag/arborist-v10.0.0-pre.2): `@npmcli/arborist@10.0.0-pre.2`
+* [workspace](https://github.com/npm/cli/releases/tag/config-v11.0.0-pre.2): `@npmcli/config@11.0.0-pre.2`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmdiff-v9.0.0-pre.1): `libnpmdiff@9.0.0-pre.1`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmexec-v11.0.0-pre.1): `libnpmexec@11.0.0-pre.1`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmfund-v8.0.0-pre.1): `libnpmfund@8.0.0-pre.1`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmpack-v10.0.0-pre.2): `libnpmpack@10.0.0-pre.2`
+
 ## [12.0.0-pre.1](https://github.com/npm/cli/compare/v12.0.0-pre.0...v12.0.0-pre.1) (2026-06-19)
 ### ⚠️ BREAKING CHANGES
 * Preserve https protocol when working with git (#8703)

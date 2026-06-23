@@ -1,5 +1,12 @@
 # Changelog
 
+## [10.0.0-pre.2](https://github.com/npm/cli/compare/arborist-v10.0.0-pre.1...arborist-v10.0.0-pre.2) (2026-06-23)
+### Features
+* [`58cd8f5`](https://github.com/npm/cli/commit/58cd8f591d0fdeafbb8f477fb8b8f5aa2e042c90) [#9586](https://github.com/npm/cli/pull/9586) `.npm-extension` transformManifest for imperative manifest repairs (#9586) (@manzoorwanijk)
+### Bug Fixes
+* [`7655822`](https://github.com/npm/cli/commit/765582219fee6ca599ad65681c7b63168801aa15) [#9597](https://github.com/npm/cli/pull/9597) arborist: don't flag inert optional deps in strict-allow-scripts (#9597) (@JamieMagee)
+* [`00b9f9f`](https://github.com/npm/cli/commit/00b9f9fdcc673e22487d4ba29347c1305287da6a) [#9591](https://github.com/npm/cli/pull/9591) arborist: symlink workspace file: deps on non-workspace local packages (#9591) (@manzoorwanijk)
+
 ## [10.0.0-pre.1](https://github.com/npm/cli/compare/arborist-v10.0.0-pre.0...arborist-v10.0.0-pre.1) (2026-06-19)
 ### ⚠️ BREAKING CHANGES
 * Preserve https protocol when working with git (#8703)
