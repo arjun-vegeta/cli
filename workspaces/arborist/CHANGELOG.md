@@ -1,5 +1,14 @@
 # Changelog
 
+## [9.9.0](https://github.com/npm/cli/compare/arborist-v9.8.0...arborist-v9.9.0) (2026-06-23)
+### Features
+* [`073253f`](https://github.com/npm/cli/commit/073253f8642d1177000b8d18ebe0abcad2ac9b1a) [#9564](https://github.com/npm/cli/pull/9564) warn when min-release-age blocks an audit fix (#9564) (@github-actions[bot], @JamieMagee)
+### Bug Fixes
+* [`b2e6338`](https://github.com/npm/cli/commit/b2e63385c991cfc1430e8e5c347f33a7fd47e0e9) [#9602](https://github.com/npm/cli/pull/9602) arborist: don't flag inert optional deps in strict-allow-scripts (#9602) (@github-actions[bot], @JamieMagee)
+* [`390ebfa`](https://github.com/npm/cli/commit/390ebfa6b89f51259aa2ae1c19b9e13a520b1fb5) [#9593](https://github.com/npm/cli/pull/9593) arborist: symlink workspace file: deps on non-workspace local packages (#9593) (@github-actions[bot], @manzoorwanijk)
+* [`aaeb2f1`](https://github.com/npm/cli/commit/aaeb2f19548c47e7bc262e4aa9c76b93376fac82) [#9578](https://github.com/npm/cli/pull/9578) arborist: expose store node_modules via NODE_PATH for linked-strategy install scripts (#9578) (@github-actions[bot], @manzoorwanijk)
+* [`05b6f0f`](https://github.com/npm/cli/commit/05b6f0f5bb356891678eb7d3840b6899f04fbfaf) [#9577](https://github.com/npm/cli/pull/9577) arborist: allow-remote exemption for proxy/mirror-fronted registry tarballs (#9577) (@github-actions[bot], @manzoorwanijk)
+
 ## [9.8.0](https://github.com/npm/cli/compare/arborist-v9.7.0...arborist-v9.8.0) (2026-06-11)
 ### Features
 * [`ae8ac4e`](https://github.com/npm/cli/commit/ae8ac4ea39776f74551fc850f4a5e766b81c5545) [#9534](https://github.com/npm/cli/pull/9534) add min-release-age-exclude config (@JamieMagee, @caseyjhol)
